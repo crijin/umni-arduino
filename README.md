@@ -1,6 +1,6 @@
 # umni-arduino
 
-Included in this folder are 2 .ino files, one is for use on production ESP8266 chips in tandem with the smart scale. The other file is for testing use in the absence of a physical scale.
+Included in this folder are 1 ".h" file and 2 ".ino" files. The "umni_scale.ino" is for use on production ESP8266 chips in tandem with the smart scale. "umni_no_scale.ino" is for testing use in the absence of a physical scale.
 
 To enable usage of an Arduino ESP8266 chip, first download the Arduino IDE (https://www.arduino.cc/en/main/software). Then, once you've opened one of the files, navigate to "Arduino > Preferences > Additional Boards Manager URLs" and paste in "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
 
