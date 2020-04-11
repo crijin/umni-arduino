@@ -171,6 +171,7 @@ void setup() {
 
 
 void loop() {
-//  ESP.deepSleep(2.16e10);
-  ESP.deepSleep(2e7);
+
+  ESP.deepSleep(3.6e9); //70 Minutes, the max time
+//  ESP.deepSleep(2e7); // 20 seconds, for testing
 }
